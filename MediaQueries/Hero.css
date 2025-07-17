@@ -1,0 +1,95 @@
+@media screen and (min-width: 768px) {
+    .container{
+      display: flex !important;
+      height: 50vh !important;
+      align-items: flex-end !important;
+
+    }
+
+    .wave{
+      width: 100% !important;
+
+    }
+
+    button{
+      width: 45% !important;
+      font-size: 1rem !important;
+    }
+
+    .btns{
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 1rem;
+    }
+
+
+      .wrapper{
+        height: 80% !important;
+        flex-direction: row !important;
+
+        align-items: center !important;
+        justify-content: space-between !important;
+        gap: 3rem;
+
+      }
+
+      .imgContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40%;
+
+      }
+
+      .texts{
+
+        width: 60% !important;
+        gap: 3rem !important;
+
+      }
+
+    h1{
+      font-size: 4rem !important;
+      text-wrap: no-wrap !important;
+    }
+
+    p{
+      width: 70%;
+    }
+
+    .floating-img{
+      width: 110% !important;
+      animation: float2 3s ease-in-out infinite !important;
+      position: static !important;
+      z-index: inherit !important;
+
+    }
+
+
+    @keyframes float2 {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(5rem); }
+  100% { transform: translateY(0); }
+}
+}
+
+@media screen and (min-width: 1200px){
+  h1{
+    font-size: 5.5rem !important;
+  }
+
+  button{
+      width: 30% !important;
+      font-size: 1rem !important;
+    }
+
+  p{
+    font-size: 1.2rem !important;
+
+  }
+
+  .container{
+    height: 65vh !important;
+  }
+}

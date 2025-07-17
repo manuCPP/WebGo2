@@ -1,0 +1,20 @@
+@media screen and (min-width: 868px){
+  .bullet{
+    height: 25vh !important;
+    width: 30% !important;
+  }
+
+
+}
+
+@media screen and (min-width: 1024px){
+  h2{
+    font-size: 1.5rem !important;
+  }
+
+  p{
+    font-size: 1.1rem !important;
+  }
+
+
+}

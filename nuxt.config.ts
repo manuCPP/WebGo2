@@ -1,0 +1,15 @@
+// https://nuxt.com/docs/api/configuration/nuxt-config
+export default defineNuxtConfig({
+  compatibilityDate: '2025-05-15',
+  devtools: { enabled: true },
+  modules: ['nuxt-icon', '@nuxt/fonts'],
+  fonts: {
+  defaults: {
+    weights: [400, 500, 600, 700, 800],
+    styles: ['normal'],
+    subsets: ['latin']
+  },
+
+}
+
+})

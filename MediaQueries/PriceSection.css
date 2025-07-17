@@ -1,0 +1,19 @@
+@media screen and (min-width: 1024px){
+  .wrapper{
+    width: 100% !important;
+    justify-content: space-between !important;
+    padding-inline: 2rem;
+  }
+
+  .container{
+    padding-inline: 0 !important;
+  }
+
+  button{
+    display: none;
+  }
+
+  .container{
+    padding-block: 15vh !important;
+  }
+}
